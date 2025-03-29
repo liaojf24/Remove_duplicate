@@ -25,4 +25,10 @@ python remove_duplicate.py \
 --output ../results/filtered.fasta
 ```
 
+# Example
+see example/example.ipynb
+
+# LICENSE
+his project is licensed under the MIT License - see the LICENSE file for details.
+
 
