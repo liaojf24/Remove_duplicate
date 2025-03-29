@@ -21,7 +21,7 @@ Then, you need to remove sequences from the raw.fasta
 cd src
 python remove_duplicate.py \
 --raw_data ../data/raw.fasta \
---blast ../data/blast_results.txt
+--blast ../data/blast_results.txt\
 --output ../results/filtered.fasta
 ```
 
