@@ -18,10 +18,11 @@ blastn -query  raw.fasta -db raw_db -outfmt 6 -out blast_results.txt -evalue 1e-
 
 Then, you need to remove sequences from the raw.fasta
 ```
+cd src
 python remove_duplicate.py \
---raw_data raw.fasta \
---blast blast_results.txt
---output filtered.fasta
+--raw_data ../data/raw.fasta \
+--blast ../data/blast_results.txt
+--output ../results/filtered.fasta
 ```
 
 
